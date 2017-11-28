@@ -20,7 +20,7 @@ city  | name  | enName  | date  | short  | friend  | dept
 
 [原文作者博客](http://zhanghonglun.cn/)
 
->我的博客，记录学习、记录生活：
+我的博客，记录学习、记录生活：
 
->https://s-top.github.io
+https://s-top.github.io
 
