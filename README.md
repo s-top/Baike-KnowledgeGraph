@@ -18,6 +18,8 @@ city  | name  | enName  | date  | short  | friend  | dept
 
 ![image](image/1.png)
 
+Demo访问地址：http://47.95.209.24:3000/
+
 [原文作者博客](http://zhanghonglun.cn/)
 
 我的博客，记录学习、记录生活：
