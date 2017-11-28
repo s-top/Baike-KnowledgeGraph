@@ -1,0 +1,39 @@
+{'英文名': 'Tsinghua University'}
+{'英文名': 'Peking University[12]?'}
+{'英文名': 'Renmin University of China'}
+{'英文名': 'University of Science and Technology of China'}
+{'英文名': 'Nanjing University'}
+{'英文名': 'Fudan University'}
+{'英文名': 'Shanghai Jiao Tong University[2]?'}
+{'英文名': 'Xi’an Jiaotong University'}
+{'英文名': 'Zhejiang University'}
+{'英文名': 'Harbin Institute of Technology'}
+{'英文名': 'Nankai University (NKU)'}
+{'英文名': 'TianjinUniversity'}
+{'英文名': 'Southeast University?'}
+{'英文名': 'Huazhong University of Science and Technology'}
+{'英文名': 'Wuhan University'}
+{'英文名': 'Xiamen University'}
+{'英文名': 'Shandong University'}
+{'英文名': 'Hunan University'}
+{'英文名': 'Ocean University of China'}
+{'英文名': 'Central South University?'}
+{'英文名': 'Jilin University'}
+{'英文名': 'Beijing Institute of Technology'}
+{'英文名': 'Dalian University of Technology'}
+{'英文名': 'Beihang University'}
+{'英文名': 'Chongqing University'}
+{'英文名': 'University of Electronic Science and Technology of China'}
+{'英文名': 'Sichuan University'}
+{'英文名': 'South China University of Technology'}
+{'英文名': 'Sun Yat-sen University (SYSU)'}
+{'英文名': 'Lanzhou University'}
+{'英文名': 'Northeastern University'}
+{'英文名': 'Northwestern Polytechnical University'}
+{'英文名': 'Tongji University'}
+{'英文名': 'Beijing Normal University'}
+{'英文名': 'China Agricultural University'}
+{'英文名': 'National University of Defense Technology'}
+{'英文名': 'Minzu University of China'}
+{'英文名': 'East China Normal University'}
+{'英文名': 'Northwest A&F University'}
