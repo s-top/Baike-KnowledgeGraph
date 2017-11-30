@@ -81,7 +81,10 @@ for line in fr.readlines():
             if dept not in deptList:
                 deptList.append(dept)
                 # 院系节点
-                nodes.append({'id': dept, 'class': 'person', 'group': 9, 'size': 11})
+                if dept == '无信息':
+                    continue
+                else:
+                    nodes.append({'id': dept, 'class': 'dept', 'group': 9, 'size': 11})
 fr.close()
 
 #简称节点
@@ -94,7 +97,7 @@ for line in fr.readlines():
             # 英文名节点
             nodes.append({'id': value, 'class': 'short', 'group': 7, 'size': 13})
 fr.close()
-
+i = 0
 fc = open('../entity/all.txt', 'r')
 for line in fc.readlines():
     tmp = eval(line.strip('\n'))
@@ -111,6 +114,9 @@ for line in fc.readlines():
     # 知名校友节点
     links.append({'source': tmp['中文名'], 'target': tmp['中文名']+'知名校友', 'value': 3})
     links.append({'source': tmp['中文名']+'知名校友', 'target': tmp['中文名'], 'value': 3})
+    # 简称节点
+    links.append({'source': tmp['中文名'], 'target': tmp['简称'], 'value': 3})
+    links.append({'source': tmp['简称'], 'target': tmp['中文名'], 'value': 3})
     person = tmp['知名校友'].split(' ')
     for index in person:
         links.append({'source': tmp['中文名']+'知名校友', 'target': index, 'value': 3})
@@ -119,13 +125,13 @@ for line in fc.readlines():
     links.append({'source': tmp['中文名'], 'target': tmp['中文名']+'主要院系', 'value': 3})
     links.append({'source': tmp['中文名']+'主要院系', 'target': tmp['中文名'], 'value': 3})
     academy = []
-    academy = tmp['主要院系'].split(' ')
-    for index in academy:
-        links.append({'source': tmp['中文名']+'主要院系', 'target': index, 'value': 3})
-        links.append({'source': index, 'target': tmp['中文名']+'主要院系', 'value': 3})
-    # 简称节点
-    links.append({'source': tmp['中文名'], 'target': tmp['简称'], 'value': 3})
-    links.append({'source': tmp['简称'], 'target': tmp['中文名'], 'value': 3})
+    if tmp['主要院系'] == '无信息':
+        continue
+    else:
+        academy = tmp['主要院系'].split(' ')
+        for index in academy:
+            links.append({'source': tmp['中文名']+'主要院系', 'target': index, 'value': 3})
+            links.append({'source': index, 'target': tmp['中文名']+'主要院系', 'value': 3})
 fc.close()
 
 fw = open('../html/nodes.json', 'w')
