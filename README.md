@@ -20,6 +20,14 @@ city  | name  | enName  | date  | short  | friend  | dept
 
 Demo访问地址：http://47.95.209.24:3000/
 
+## 内容（按处理顺序）：
+ - list-school 高校列表
+ - loadingData 获取高校信息
+ - stopwords 分词
+ - entity 分离实体
+ - node-links 生成json数据（节点和关联关系）
+ - html D3.js的数据可视化
+
 [原文作者博客](http://zhanghonglun.cn/)
 
 [原文作者代码](https://github.com/Honlan/starwar-visualization)
