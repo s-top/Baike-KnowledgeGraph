@@ -18,7 +18,7 @@ city  | name  | enName  | date  | short  | friend  | dept
 
 ![image](image/1.png)
 
-Demo访问地址：http://47.95.209.24:3000/
+Demo访问地址：http://47.95.209.24:3000/(暂时无法访问，服务器搬家中。。。)
 
 ## 内容（按处理顺序）：
  - list-school 高校列表
